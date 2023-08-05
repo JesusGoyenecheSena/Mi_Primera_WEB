@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diviértete</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-Page7.css" />
+</head>
+<body>
+    <header class="header">        
+        <figure id="logo" class="header_logo">
+            <img src="img/Logo1.jpg" alt class="logo"/>
+        </figure>
+        <h1 id="titulo">DEVELOPMENT TIME</h1>
+        <nav class="panel">
+            <ul class="panel_list">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Page5.html">Usuario</a>
+                </li>
+                <li>
+                    <a href="Page6.html">Ayuda</a>
+                </li>
+                <li>
+                    <a href="Page7.html">Diviértete</a>
+                </li>
+            </ul>
+        </nav>        
+    </header>    
+    <main class="page5">
+        <div class="containerAll">
+            <header class="headerApp">
+                <div class="header_div">
+                    <p class="header_div-p" id="marcadorUsuario">0</p>
+                    <h1 class="header_div-h1">Piedra, Papel o Tijera</h1>
+                    <p class="header_div-p" id="marcadorMaquina">0</p>
+                </div>
+            </header>
+            <article class="article">
+                <section class="section">
+                    <div class="section_divUsuario">
+                        <img class="imgUsuario" src="img/Papel.png" id="imgUsuario" alt="Piedra, Papel o Tijera" class="section_divUsuario-img">
+                        <div class="section_divUsuario-buttons">
+                            <button onclick="mostrarPiedra(), correrLogica()" class="section_divUsuario-button">Piedra</button>
+                            <button onclick="mostrarPapel(), correrLogica()" class="section_divUsuario-button">Papel</button>
+                            <button onclick="mostrarTijera(), correrLogica()" class="section_divUsuario-button">Tijera</button>
+                        </div>
+                    </div>
+                    <div class="section_divMaquina">
+                        <img class="imgMaquina" src="img/Piedra.png" id="imgMaquina" alt="Piedra, Papel o Tijera" class="section_divMaquina-img">
+                    </div>
+                </section>
+            </article>
+            <script src="app.js"></script>
+        </div>
+    </main>
+    
+    <footer>
+        <section>
+            <a href="#logo">Ir al Comienzo</a>
+            <a href="mailto:jgoyeneche15@soy.sena.edu.co" >Contactame a mi @</a>
+        </section>
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>

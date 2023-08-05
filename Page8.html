@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasos del proceso de desarrollo de software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style-Page5.css" />
+</head>
+<body>
+    <header class="header">        
+        <figure id="logo" class="header_logo">
+            <img src="img/Logo1.jpg" alt class="logo"/>
+        </figure>
+        <h1 id="titulo">DEVELOPMENT TIME</h1>
+        <nav class="panel">
+            <ul class="panel_list">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="Page5.html">Usuario</a>
+                </li>
+                <li>
+                    <a href="Page6.html">Ayuda</a>
+                </li>
+                <li>
+                    <a href="Page7.html">Diviértete</a>
+                </li>
+            </ul>
+        </nav>        
+    </header>    
+    <main class="page5">
+        <section class="container">
+            <div class="post">    
+                <div class="contenido">
+                    <h2 >Registro de Usuario Nuevo</h2>                    
+                    <p>
+                        Como usuario registrado recibirás información actualizada.
+                    </p>
+                </div>   
+                <form action="Error404.html">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Indique su Nombre" required>
+                    <br><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" name="apellido" placeholder="Indique su Apellido" required>
+                    <br><br>
+                    <label for="tipo_documento">Tipo de Documento:</label>
+                    <select name="tiposdocument" id="tiposdocument">
+                        <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+                        <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                        <option value="Registro Civil">Registro Civil</option>
+                        <option value="Cedula de Extrangeria">Cedula de Extrangeria</option>
+                        <option value="Permiso de Permanecia Especial">Permiso de Permanecia Especial</option>
+                      </select>
+                    <br><br>  
+                    <label for="numero de documento">No. de Documento:</label>
+                    <input type="number" name="No. de Documento" placeholder="Numero de Documento" required>
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="Email" placeholder="Correo Electronico" required>
+                    <br><br>
+                    <label for="Contraseña">Contraseña:</label>
+                    <input type="password" name="Contraseña" placeholder="Contraseña" required>
+                    <br><br>
+                    <button type="submit">Registrarme</button>
+                    <br><br>
+                </form>             
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <a href="#logo">Ir al Comienzo</a>
+            <a href="mailto:jgoyeneche15@soy.sena.edu.co" >Contactame a mi @</a>
+        </section>
+        <p>Copyright 2023</p>
+    </footer>
+</body>
+</html>

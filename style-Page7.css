@@ -1,0 +1,171 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+.header {    
+    display: flex;
+    background-color: #1B488C;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo, .panel, .panel_list li {
+    display: inline-block;
+    margin: 5px;
+}
+.header_logo > img {
+    width: 100px;
+}
+.panel {
+    right: 150px;
+    top: 25px;
+}
+
+.panel_list {
+    list-style: none;
+}
+
+.panel_list li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.panel_list a:hover {
+    color: #7F9C09;
+}
+
+.header h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.page5 {
+    height: auto;
+    margin: 0 auto; 
+}
+.containerAll {
+    background: url(img/Fondo\ Diviertete.jpg);
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.header_div {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+}
+.header_div-p, .header_div-h1 {
+    font-size: 3em;
+    color: #fff;
+}
+.section {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section_divUsuario-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section_divUsuario-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+.section_divUsuario-button:hover {
+    background-color: #2fe40b;
+    color: #000000;
+    border-bottom: 9px solid rgb(168, 58, 30);
+    border-left: 7px solid rgb(168, 58, 30);
+    border-radius: 10px;
+    transition: .2s;
+}
+.section_divUsuario-img, .section_divMaquina-img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;    
+}
+
+.imgUsuario, .imgMaquina {
+    border-radius: 10px;
+    
+}
+
+.post {
+    width: 500px;    
+    margin: 1rem auto;
+    height: 0 auto;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    padding: 0.25rem 0;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);      
+}
+
+.contenido {
+    margin: 2rem;
+    text-align: center;
+}
+
+form input, select {
+    padding: 5px;
+    margin: 0 1rem;
+    min-width: 200px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    display: inline-block;
+    width: 80px;
+    float: right;        
+}
+form label {
+    margin: 0 1rem;
+}
+
+form button {
+    background-color: #1B488C;
+    color: #fff;
+    font-size: 20px;
+    min-width: 100px;
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+form button:hover {
+    background-color: #7F9C09;
+}
+
+
+footer {
+    background-color: #222;
+    padding: 1rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #7F9C09;
+}
